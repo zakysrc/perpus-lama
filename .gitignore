@@ -1,5 +1,16 @@
-# Object file
-*.o
+# Kredensial lokal (jangan pernah di-commit)
+config.local.php
 
-# Ada Library Information
-*.ali
+# Data pribadi anggota (foto) - tidak perlu masuk repository
+uploads/
+assets/img/anggota_*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Sampul buku yang diunggah lewat aplikasi
+assets/img/buku/buku_*
